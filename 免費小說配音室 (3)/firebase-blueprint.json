@@ -1,0 +1,157 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User account information and profile",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Unique user authentication identifier"
+        },
+        "username": {
+          "type": "string",
+          "description": "Username or login account handle",
+          "maxLength": 64
+        },
+        "displayName": {
+          "type": "string",
+          "description": "Display name of the user",
+          "maxLength": 64
+        },
+        "email": {
+          "type": "string",
+          "description": "User email address if provided"
+        },
+        "passwordHash": {
+          "type": "string",
+          "description": "Hashed password for username login"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Account registration timestamp"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Account update timestamp"
+        }
+      },
+      "required": ["userId", "username", "displayName"]
+    },
+    "CustomCharacter": {
+      "title": "CustomCharacter",
+      "description": "User created voice character for multi-voice dubbing",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique character ID"
+        },
+        "userId": {
+          "type": "string",
+          "description": "Owner user ID"
+        },
+        "name": {
+          "type": "string",
+          "description": "Character name e.g. 甲, 乙, 旁白",
+          "maxLength": 64
+        },
+        "voiceCode": {
+          "type": "string",
+          "description": "Edge TTS voice code e.g. zh-CN-YunxiNeural"
+        },
+        "displayName": {
+          "type": "string",
+          "description": "Voice display title"
+        },
+        "color": {
+          "type": "string",
+          "description": "Character badge color hex"
+        },
+        "gender": {
+          "type": "string",
+          "enum": ["male", "female", "other"]
+        },
+        "rate": {
+          "type": "string",
+          "description": "Speech rate modifier"
+        },
+        "pitch": {
+          "type": "string",
+          "description": "Speech pitch modifier"
+        },
+        "description": {
+          "type": "string",
+          "description": "Character role description",
+          "maxLength": 200
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        }
+      },
+      "required": ["id", "userId", "name", "voiceCode"]
+    },
+    "NovelProject": {
+      "title": "NovelProject",
+      "description": "User novel voice dubbing project",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Project ID"
+        },
+        "userId": {
+          "type": "string",
+          "description": "Owner user ID"
+        },
+        "title": {
+          "type": "string",
+          "description": "Project title",
+          "maxLength": 100
+        },
+        "author": {
+          "type": "string",
+          "description": "Author name",
+          "maxLength": 60
+        },
+        "status": {
+          "type": "string",
+          "description": "Project processing status"
+        },
+        "totalWords": {
+          "type": "number",
+          "description": "Total character count"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last updated timestamp"
+        }
+      },
+      "required": ["id", "userId", "title"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User account profile document"
+    },
+    "/users/{userId}/characters/{characterId}": {
+      "schema": "CustomCharacter",
+      "description": "User voice character library"
+    },
+    "/users/{userId}/projects/{projectId}": {
+      "schema": "NovelProject",
+      "description": "User saved novel projects metadata"
+    }
+  }
+}

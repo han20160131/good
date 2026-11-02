@@ -1,0 +1,8 @@
+{
+  "provider": "gmail",
+  "smtpPort": 587,
+  "smtpFrom": "noreply@novelsound.ai",
+  "smtpSecure": false,
+  "resendApiKey": "",
+  "isConfigured": false
+}

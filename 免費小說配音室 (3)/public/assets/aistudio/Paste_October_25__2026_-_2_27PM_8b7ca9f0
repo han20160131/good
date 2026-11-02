@@ -1,0 +1,1017 @@
+TTSPool] Attempt 2 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:17.319
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:17.319
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0063 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:17.721
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:17.721
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:18.380
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:19.104
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:19.104
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0063 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:21.159
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:21.210
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:21.586
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:22.292
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:22.292
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0062 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:23.289
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:23.868
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:23.868
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0061 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:25.235
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:25.656
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:26.342
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:26.342
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0064 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:27.550
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:27.550
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:27.550
+Backend
+Error
+ [Worker] Chunk proj_1792909494189_c002_p0009 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:27.844
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:28.042
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:28.042
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:28.689
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:28.689
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0060 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:29.133
+Backend
+Error
+ [Worker] Project proj_1792397601844 reset 3041 failed paragraphs and resumed synthesis. 
+14:26:29.771
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:30.465
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:30.465
+Backend
+Error
+ [Worker] Chunk proj_1792909494189_c002_p0012 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:31.100
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:32.399
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:32.399
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0059 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:32.777
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:33.475
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:33.921
+Backend
+Log
+ [Worker] Started high-speed background synthesis for project proj_1792397601844 
+14:26:34.631
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:35.007
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:35.967
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:35.967
+Backend
+Error
+ [Worker] Chunk proj_1792909494189_c002_p0012 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:37.423
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:37.424
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0059 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:37.655
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:37.799
+Backend
+Error
+ [Worker] Project proj_1792397601844 reset 3041 failed paragraphs and resumed synthesis. 
+14:26:38.389
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:39.130
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:39.130
+Backend
+Error
+ [Worker] Chunk proj_1792909494189_c002_p0012 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:39.130
+Backend
+Error
+ [Worker] Project proj_1792909494189 has 13 failed paragraphs after retries. 
+14:26:39.130
+Backend
+Log
+ [Worker] Worker finished/exited for project proj_1792909494189 
+14:26:41.650
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:41.650
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:41.650
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:42.294
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:42.294
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:42.295
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:42.295
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:42.295
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:42.347
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:43.072
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:44.006
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:44.006
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:44.137
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:44.137
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0060 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:44.735
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:45.666
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:46.272
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:46.272
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0059 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:47.631
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:47.631
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0062 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:47.967
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:48.771
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:48.771
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0064 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:50.040
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:50.566
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:50.566
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0063 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:52.044
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:52.427
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:52.428
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:52.428
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:52.428
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:26:52.428
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:52.428
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0060 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:52.661
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:52.661
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0061 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:54.122
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:54.122
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:54.424
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:55.025
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:56.025
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:56.025
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0066 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:57.639
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:57.640
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:58.339
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:59.055
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:59.055
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0068 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:26:59.680
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:00.199
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:00.200
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0069 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:01.626
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:01.626
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0063 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:01.626
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:01.626
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0064 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:01.626
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:01.626
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0061 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:01.759
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:01.760
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0062 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.043
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.043
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.043
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.043
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.149
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.149
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.149
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.406
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.406
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.508
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.508
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.508
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.508
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.508
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.508
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0065 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.652
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.831
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.831
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0067 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.832
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:02.832
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0065 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.025
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.025
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0068 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.025
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.025
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0069 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.164
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.164
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.297
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.297
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0066 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.410
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.531
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.531
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0071 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.669
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.669
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:03.896
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.086
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.086
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0071 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.138
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.138
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.339
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.340
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0066 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.556
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.556
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0065 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.556
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.556
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0067 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.556
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.659
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.660
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.660
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0067 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.981
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.981
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:04.981
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:05.109
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:05.246
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:05.354
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:05.572
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:05.572
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:05.681
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:05.681
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:05.956
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:05.956
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0069 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:05.956
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:05.956
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0067 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.085
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.085
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0068 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.085
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.085
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0068 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.242
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.242
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0065 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.508
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.508
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.508
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0066 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.508
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.672
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.871
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.871
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:06.871
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.108
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.301
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.302
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0065 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.302
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.302
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0069 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.302
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.549
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.549
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0066 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.826
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.827
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0067 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.827
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.827
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:07.934
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:08.391
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:08.391
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:08.391
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:08.521
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:08.804
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:08.804
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0068 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:08.804
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:08.804
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0069 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:08.804
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:08.804
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0071 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:09.101
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:09.188
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:09.188
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:09.188
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:09.188
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:09.188
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:09.669
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:10.632
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:11.341
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:11.341
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0076 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:13.303
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:13.303
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0071 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:13.423
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:14.154
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:14.487
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:15.589
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:15.589
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0065 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:16.883
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:17.102
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:17.102
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0074 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:17.714
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:18.652
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:18.652
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0067 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:19.610
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:27:19.610
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:27:19.610
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:27:19.610
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:27:19.957
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:19.957
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0072 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:20.126
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:20.126
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0071 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:21.465
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:21.465
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0073 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:23.615
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:27:23.616
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:27:23.616
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:27:23.616
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS connection timed out after 10000 milliseconds. 
+14:27:23.782
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:23.782
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0075 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:23.782
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:23.782
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:24.118
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:25.091
+Backend
+Error
+ [TTSPool] Attempt 3 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:25.091
+Backend
+Error
+ [Worker] Chunk proj_1792397601844_c002_p0069 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:27.250
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:27.365
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:27.420
+Backend
+Error
+ [TTSPool] Attempt 1 failed: Edge TTS WebSocket error: Unexpected server response: 200 
+14:27:28.105
+Backend
+Error
+ [TTSPool] Attempt 2 failed: Edge TTS WebSocket error: Unexpected server response: 200 

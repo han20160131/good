@@ -1,0 +1,6 @@
+{
+  "name": "免費小說配音室",
+  "description": "專為長篇小說設計的本機配音工作站，支援繁體中文長文切段、zh-CN-YunxiNeural 語音排程與斷點續跑。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub 風格 Email OTP 驗證碼系統</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 420px;
+      padding: 32px;
+      box-shadow: 0 8px 24px rgba(1, 4, 9, 0.6);
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #f0f6fc;
+      margin-bottom: 8px;
+    }
+    p.desc {
+      font-size: 13px;
+      color: #8b949e;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      color: #f0f6fc;
+      margin-bottom: 8px;
+    }
+    .input-row {
+      display: flex;
+      gap: 8px;
+    }
+    input[type="email"], input[type="text"] {
+      flex: 1;
+      background-color: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      color: #c9d1d9;
+      padding: 9px 12px;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    input:focus {
+      border-color: #58a6ff;
+      box-shadow: 0 0 0 3px rgba(56, 139, 253, 0.25);
+    }
+    .code-input {
+      letter-spacing: 6px;
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 18px;
+      text-align: center;
+      font-weight: 600;
+    }
+    button {
+      background-color: #238636;
+      border: 1px solid rgba(240, 246, 252, 0.1);
+      border-radius: 6px;
+      color: #ffffff;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      padding: 9px 16px;
+      transition: background-color 0.2s;
+      white-space: nowrap;
+    }
+    button:hover:not(:disabled) {
+      background-color: #2ea043;
+    }
+    button:disabled {
+      background-color: #21262d;
+      color: #8b949e;
+      border-color: #30363d;
+      cursor: not-allowed;
+    }
+    .btn-block {
+      width: 100%;
+      margin-top: 8px;
+      padding: 10px;
+      font-size: 14px;
+    }
+    .alert {
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      margin-bottom: 20px;
+      display: none;
+      line-height: 1.4;
+    }
+    .alert-success {
+      background-color: rgba(46, 160, 67, 0.15);
+      border: 1px solid rgba(46, 160, 67, 0.4);
+      color: #3fb950;
+    }
+    .alert-error {
+      background-color: rgba(248, 81, 73, 0.15);
+      border: 1px solid rgba(248, 81, 73, 0.4);
+      color: #f85149;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>兩步驟安全驗證</h2>
+    <p class="desc">支援所有電子郵件服務（包含 Tuta、Proton、Outlook、Gmail 等）。</p>
+
+    <!-- 訊息提示框 -->
+    <div id="alertBox" class="alert"></div>
+
+    <!-- 步驟 1：輸入 Email 並發送 -->
+    <div class="form-group">
+      <label for="emailInput">電子郵件信箱</label>
+      <div class="input-row">
+        <input type="email" id="emailInput" placeholder="請輸入您的 Email 地址" required />
+        <button id="sendBtn" type="button">發送驗證碼</button>
+      </div>
+    </div>
+
+    <!-- 步驟 2：輸入 6 位數驗證碼並比對 -->
+    <div class="form-group">
+      <label for="codeInput">6 位數驗證碼（有效期限 10 分鐘）</label>
+      <input type="text" id="codeInput" class="code-input" maxlength="6" placeholder="______" />
+      <button id="verifyBtn" class="btn-block" type="button">驗證並完成登入</button>
+    </div>
+  </div>
+
+  <script>
+    const emailInput = document.getElementById('emailInput');
+    const codeInput = document.getElementById('codeInput');
+    const sendBtn = document.getElementById('sendBtn');
+    const verifyBtn = document.getElementById('verifyBtn');
+    const alertBox = document.getElementById('alertBox');
+
+    let cooldownTimer = null;
+    let countdown = 0;
+
+    function showAlert(msg, isSuccess = false) {
+      alertBox.textContent = msg;
+      alertBox.className = 'alert ' + (isSuccess ? 'alert-success' : 'alert-error');
+      alertBox.style.display = 'block';
+    }
+
+    // 發送驗證碼邏輯 (/api/send-otp)
+    sendBtn.addEventListener('click', async () => {
+      const email = emailInput.value.trim();
+      if (!email || !email.includes('@')) {
+        showAlert('請輸入正確的電子郵件格式');
+        return;
+      }
+
+      sendBtn.disabled = true;
+      sendBtn.textContent = '發送中...';
+
+      try {
+        const res = await fetch('/api/send-otp', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email })
+        });
+        const data = await res.json();
+
+        if (!res.ok) {
+          throw new Error(data.error || '發送失敗');
+        }
+
+        showAlert(data.message || '驗證碼已發送至您的信箱，請查收！', true);
+
+        // 啟動 60 秒冷卻防刷計時器
+        countdown = data.cooldownSeconds || 60;
+        sendBtn.textContent = `${countdown}s 後可重發`;
+        clearInterval(cooldownTimer);
+        cooldownTimer = setInterval(() => {
+          countdown--;
+          if (countdown <= 0) {
+            clearInterval(cooldownTimer);
+            sendBtn.disabled = false;
+            sendBtn.textContent = '重新發送';
+          } else {
+            sendBtn.textContent = `${countdown}s 後可重發`;
+          }
+        }, 1000);
+
+      } catch (err) {
+        showAlert(err.message);
+        sendBtn.disabled = false;
+        sendBtn.textContent = '發送驗證碼';
+      }
+    });
+
+    // 驗證碼校驗邏輯 (/api/verify-otp)
+    verifyBtn.addEventListener('click', async () => {
+      const email = emailInput.value.trim();
+      const code = codeInput.value.trim();
+
+      if (!email) {
+        showAlert('請先輸入電子郵件');
+        return;
+      }
+      if (!code || code.length !== 6) {
+        showAlert('請輸入完整的 6 位數安全驗證碼');
+        return;
+      }
+
+      verifyBtn.disabled = true;
+      verifyBtn.textContent = '驗證中...';
+
+      try {
+        const res = await fetch('/api/verify-otp', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, code })
+        });
+        const data = await res.json();
+
+        if (!res.ok) {
+          throw new Error(data.error || '驗證碼錯誤或已失效');
+        }
+
+        showAlert('🎉 驗證成功！該驗證碼已依照一次性原則銷毀。', true);
+        codeInput.value = '';
+      } catch (err) {
+        showAlert(err.message);
+      } finally {
+        verifyBtn.disabled = false;
+        verifyBtn.textContent = '驗證並完成登入';
+      }
+    });
+  </script>
+</body>
+</html>
